@@ -8,3 +8,10 @@ if [ $1 == "start" ]
   else
   echo "Please make sure the positon variable is start or stop."
 fi
+
+while true
+do
+	echo "run.sh is running..."
+	echo "run.sh is loging..." >> run_sh_test.log
+	sleep 30
+done

@@ -7,4 +7,4 @@ COPY . /app
                                                                                                                         
 RUN chmod +x /app/*                                                                                                
                                                                                                                         
-CMD ["/bin/bash"]
+CMD ["/app/run.sh","start"]

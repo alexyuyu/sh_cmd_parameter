@@ -21,3 +21,10 @@ do
       ;;  
   esac  
 done  
+
+while true
+do
+	echo "run_getopts.sh is running..."
+	echo "run_getopts.sh is logging..." >> run_getopts_test.xml
+	sleep 30
+done
