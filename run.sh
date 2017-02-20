@@ -11,7 +11,7 @@ fi
 
 while true
 do
-	echo "run.sh is running..."
+	echo "run.sh is running...\n"
 	echo "run.sh is loging..." >> run_sh_test.log
 	sleep 30
 done
